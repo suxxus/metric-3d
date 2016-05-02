@@ -7,7 +7,7 @@
 * D3js
 * handlebarsjs
 * ECMAScript 2015 (ES6)
-* Unit test with tape
+* Unit testing without browser(Tape)
 * Pure component factories
 
 ## Clone the repo & install
