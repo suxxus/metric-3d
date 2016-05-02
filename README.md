@@ -1,8 +1,7 @@
 # metric-stats
-***Mini app. Example using stateless components with plain javascript***
+***Mini app. Example d3js with plain javascript***
 
-[![Build Status](https://travis-ci.org/suxxus/metric-3d.svg?branch=master)](https://travis-ci.org/suxxus/metric-3d)
-[![Code Climate](https://codeclimate.com/github/suxxus/metric-3d/badges/gpa.svg)](https://codeclimate.com/github/suxxus/metric-3d)
+[![Build Status](https://travis-ci.org/suxxus/metric-stats.svg?branch=master)](https://travis-ci.org/suxxus/metric-stats)
 
 * D3js
 * handlebarsjs
@@ -12,7 +11,7 @@
 
 ## Clone the repo & install
 ```
-git clone https://github.com/suxxus/metric-3d.git
+git clone https://github.com/suxxus/metric-stats.git
 cd ./metric-3d
 npm install
 ```
