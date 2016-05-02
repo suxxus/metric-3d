@@ -25,7 +25,7 @@ export const toLocale = ({ value = 0, locale = 'USD', currency }) => {
 };
 
 // -------------------------------
-// specific funtions for this app
+// specific functions for this app
 // -------------------------------
 
 export const curryToLocale = props => {
