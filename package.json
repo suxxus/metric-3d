@@ -23,6 +23,7 @@
         "build": "npm run test -s & npm run lint && npm run build:js -s && npm run build:css -s && npm run build:markup -s",
         "browsersync": "node .browser-sync",
         "dev": "watch -p 'src/**/*' -c 'npm run test & npm run lint'",
+        "prestart":"rm -rf ./build && mkdir ./build && rm -rf ./dist && mkdir dist && npm run build",
         "start": "npm run freddie -s & watch -p 'src/**/*' -c 'npm run build' & npm run browsersync",
         "uglify": "uglifyjs build/*.js --stats --mangle --output ./dist/bundle.js",
         "minify:html": "html-minifier --collapse-whitespace build/index.html -o  dist/index.html",

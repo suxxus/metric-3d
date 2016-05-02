@@ -11,7 +11,7 @@ bs.watch('./build/*').on('change', bs.reload);
 bs.init({
     server: {
         name: 'dev',
-        baseDir: './dist',
+        baseDir: './build',
         middleware: [proxy(proxy_options('http://localhost:4000/api'))]
     },
     port: 3000,
