@@ -1,6 +1,8 @@
 # metric-D3
 ***Mini app. Example using stateless components with plain javascript***
 
+[![Build Status](https://travis-ci.org/suxxus/metric-3d.svg?branch=master)](https://travis-ci.org/suxxus/metric-3d)
+
 * D3js
 * handlebarsjs
 * ECMAScript 2015 (ES6)
