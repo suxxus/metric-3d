@@ -1,4 +1,4 @@
-var bs = require("browser-sync").create();
+var bs = require('browser-sync').create();
 var proxy = require('proxy-middleware'),
     url = require('url'),
     proxy_options = function(value) {
