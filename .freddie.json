@@ -1,0 +1,7 @@
+[{
+    "name": "dev",
+    "port": 4000,
+    "fixtures": {
+        "/api": "fixtures"
+    }
+}]
