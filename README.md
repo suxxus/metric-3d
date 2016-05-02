@@ -37,7 +37,7 @@ The `package.json` file comes with the following scripts.
 
 `build`: generates the compiled app at ./build directory.
 
-`freddie`: Launch the server from the document root of your project.
+`freddie`: launch the server from the document root of your project.
 
 `dev`:  runs a dev console that reports lint and unit tests and start watching for changes at *.js files
 
