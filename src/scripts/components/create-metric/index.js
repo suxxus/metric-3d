@@ -1,3 +1,4 @@
+import randomstring from 'randomstring';
 import createArea from 'scripts/components/create-d3-area';
 import createPie from 'scripts/components/create-d3-pie';
 import createArc from 'scripts/components/create-d3-arc';
@@ -21,6 +22,7 @@ export default d3 => {
         const CreateArea = createArea(d3);
         const CreatePie = createPie(d3);
         const CreateArc = createArc(d3);
+        const clipPathÌd = `circle-path-${randomstring.generate(4)}`;
 
         const svg = d3.select(container)
             .attr('class', 'metric')
@@ -29,7 +31,7 @@ export default d3 => {
 
         // clip path
         svg.append('clipPath')
-            .attr('id', 'circle-path')
+            .attr('id', clipPathÌd)
             .append('circle')
             .attr('cx', 88)
             .attr('cy', 88)
@@ -56,7 +58,7 @@ export default d3 => {
 
         // area
         svg.append('g')
-            .attr('clip-path', 'url(#circle-path)')
+            .attr('clip-path', `url(#${clipPathÌd})`)
             .append('path')
             .attr('transform', 'translate(0,100)')
             .datum(annual)
