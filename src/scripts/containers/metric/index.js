@@ -21,8 +21,8 @@ export default (d3) => {
             }),
 
             props = {
-                width: 175,
-                height: 175,
+                width: 178,
+                height: 178,
                 container: container,
                 classnames: [
                     'first-value',
