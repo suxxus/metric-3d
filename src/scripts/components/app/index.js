@@ -10,7 +10,7 @@ export default d3 => {
         resp.data.forEach((item, idx) => {
 
             let compiledHtml = chart(reduceResp(resp, palettes, idx)),
-                metricContainerId = '#metric-' + item.id;
+                metricContainerId = `#metric-${item.id}`;
 
             window.document.querySelector(container).insertAdjacentHTML('beforeend', compiledHtml);
             Metric({ container: metricContainerId, data: item });
