@@ -30,6 +30,7 @@
     "dist": "npm run build && cat build/*.css | cleancss -o dist/main.css && npm run uglify && npm run minify:html",
     "freddie": "freddie",
     "codeclimate": "codeclimate-test-reporter < ./coverage/lcov.info",
+    "coverall": "npm run coverage",
     "coverage": "NODE_PATH=src babel-node `npm bin`/babel-istanbul cover src/tests",
     "check": "npm outdated --depth=0",
     "update": "updtr"
