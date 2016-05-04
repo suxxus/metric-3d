@@ -17,14 +17,14 @@ export default d3 => {
             classnames,
             inner,
             outer
-        } = props;
+        } = props,
 
-        const CreateArea = createArea(d3);
-        const CreatePie = createPie(d3);
-        const CreateArc = createArc(d3);
-        const clipPathÌd = `circle-path-${randomstring.generate(4)}`;
+            CreateArea = createArea(d3),
+            CreatePie = createPie(d3),
+            CreateArc = createArc(d3),
+            clipPathÌd = randomstring.generate(5),
 
-        const svg = d3.select(container)
+            svg = d3.select(container)
             .attr('class', 'metric')
             .attr('width', width)
             .attr('height', height);
