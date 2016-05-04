@@ -74,7 +74,7 @@ body {
 
 .palette-sky .area {
     fill: #f5fafb;
-    stroke: #cef0fd;
+    stroke: #A1C0CB;
 }
 
 .palette-sky .cross-hair {
@@ -93,7 +93,7 @@ body {
 
 .palette-musgo .area {
     fill: #f4fbf4;
-    stroke: #cbf0bd;
+    stroke: #B6D7A9;
 }
 
 .palette-musgo .cross-hair {
@@ -113,7 +113,7 @@ body {
 
 .palette-terra .area {
     fill: #fefaf3;
-    stroke: #feeab2;
+    stroke: #D3C08C;
 }
 
 .palette-terra .cross-hair {
