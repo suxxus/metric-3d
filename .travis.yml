@@ -3,7 +3,7 @@ node_js:
   - "node"
 script:
   - npm run lint
-  - npm test
+  - npm run coverall
   - npm run check
 addons:
   code_climate:
