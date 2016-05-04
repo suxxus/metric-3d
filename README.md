@@ -3,6 +3,7 @@
 
 [![Build Status](https://travis-ci.org/suxxus/metric-stats.svg?branch=master)](https://travis-ci.org/suxxus/metric-stats)
 [![Code Climate](https://codeclimate.com/github/suxxus/metric-stats/badges/gpa.svg)](https://codeclimate.com/github/suxxus/metric-stats)
+[![Test Coverage](https://codeclimate.com/github/suxxus/metric-stats/badges/coverage.svg)](https://codeclimate.com/github/suxxus/metric-stats/coverage)
 
 * D3js
 * handlebarsjs
