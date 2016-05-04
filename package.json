@@ -29,7 +29,7 @@
     "minify:html": "html-minifier --collapse-whitespace build/index.html -o  dist/index.html",
     "dist": "npm run build && cat build/*.css | cleancss -o dist/main.css && npm run uglify && npm run minify:html",
     "freddie": "freddie",
-    "codeclimate": "codeclimate-test-reporter < ./coverage/lcov.info",
+    "codeclimate": "CODECLIMATE_REPO_TOKEN=5491c8fccad611cd0df73170678f76ccc322c02c9676d755e5739eada53dc600 codeclimate-test-reporter < coverage/lcov.info",
     "coverall": "npm run coverage",
     "coverage": "NODE_PATH=src babel-node `npm bin`/babel-istanbul cover src/tests",
     "check": "npm outdated --depth=0",

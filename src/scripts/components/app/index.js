@@ -12,8 +12,15 @@ export default d3 => {
             let compiledHtml = chart(reduceResp(resp, palettes, idx)),
                 metricContainerId = `#metric-${item.id}`;
 
-            window.document.querySelector(container).insertAdjacentHTML('beforeend', compiledHtml);
-            Metric({ container: metricContainerId, data: item });
+            const renderComp = () => {
+                    window.document.querySelector(container)
+                        .insertAdjacentHTML('beforeend', compiledHtml);
+                    Metric({ container: metricContainerId, data: item });
+                },
+
+                action = window.document.querySelector(container) ? renderComp : () => '';
+
+            action();
         });
     };
 };
