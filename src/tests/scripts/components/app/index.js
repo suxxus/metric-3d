@@ -30,7 +30,6 @@ test('window exists', t => {
     t.end();
 });
 
-
 test('App function', t => {
     const actual = typeof App === 'function',
         expect = true;
