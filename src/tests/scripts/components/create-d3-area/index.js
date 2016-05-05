@@ -23,6 +23,13 @@ test('window.d3 exists', t => {
     t.end();
 });
 
+test('CreateArea function', t => {
+    const actual = typeof CreateArea === 'function',
+        expect = true;
+    t.ok(actual, expect);
+    t.end();
+});
+
 test('should return an area function', t => {
 
     const props = {
