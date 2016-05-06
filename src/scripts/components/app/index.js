@@ -21,6 +21,7 @@ export default d3 => {
                 action = window.document.querySelector(container) ? renderComp : () => '';
 
             action();
+
         });
     };
 };
