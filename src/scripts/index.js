@@ -1,5 +1,6 @@
 import d3 from 'd3';
 import createChartComp from 'scripts/components/app';
+import 'isomorphic-fetch';
 import 'babel-polyfill';
 
 const init = () => {
